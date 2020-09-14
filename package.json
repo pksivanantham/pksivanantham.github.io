@@ -1,0 +1,25 @@
+{
+  "name": "pksivanantham.github.io",
+  "version": "1.0.0",
+  "description": "Profile Page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pksivanantham/pksivanantham.github.io.git"
+  },
+  "keywords": [
+    "pksivanantham"
+  ],
+  "author": "siva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pksivanantham/pksivanantham.github.io/issues"
+  },
+  "homepage": "https://github.com/pksivanantham/pksivanantham.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
