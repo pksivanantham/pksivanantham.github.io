@@ -1,36 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <!--  Meta  -->
-  <meta charset="UTF-8" />
-  <title>Sivanantham Padikkasu</title>
-  
-  <!--  Styles  -->
-  <link rel="stylesheet" href="styles/index.processed.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sivanantham Padikkasu — Full-Stack Software Engineer. C#, .NET, React, AWS, DevOps. 11 years of experience.">
+    <title>Sivanantham Padikkasu | Full-Stack Software Engineer</title>
+    <link rel="stylesheet" href="styles/index.processed.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Sivanantham Padikkasu | Full-Stack Software Engineer">
+    <meta property="og:description" content="Full-stack software engineer — C#, .NET, React, Cloud, DevOps.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/Canazei Granite Ridges.jpg">
+    <meta property="og:image:alt" content="Mountain ridges - Canazei Granite Ridges">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sivanantham Padikkasu | Full-Stack Software Engineer">
+    <meta name="twitter:description" content="Full-stack software engineer — C#, .NET, React, Cloud, DevOps.">
+    <meta name="twitter:image" content="images/Canazei Granite Ridges.jpg">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
-  <div id="main">
-    
-    <div  class="text-align-center">
-      <h1 id="title">Sivanantham Padikkasu</h1>
-    </div>
-     <div class="text-align-center">
-       <span>Hi!. Welcome to my website</span>
-    </div>
-    <figure id="img-div"  >
-      <img src="/images/Canazei%20Granite%20Ridges.jpg" id="image" alt="Canazei Granite Ridges_ElementaryOS_Backgrounds"/>
-      <figcaption class="text-align-center" id="img-caption">PC:Canazei Granite Ridges</figcaption>
-    </figure>
-    
-    </div>
-    <div class="text-align-center">
-      <b>
-    Website is under construction...
-    </div>
-  </div>
-  
-  <!-- Scripts -->
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="main-header">
+        <div class="container">
+            <h1>Sivanantham Padikkasu</h1>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Full-stack software engineer with 11 years of experience in architecting, developing, and deploying web SPAs, APIs, and Windows applications. Skilled in a wide range of Microsoft technologies (C#, .NET, .NET Core, Web APIs) and JavaScript. Worked on both Agile and Waterfall SDLC methodologies. Good understanding of database management and design principles.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Databases</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>T-SQL</li>
+                        <li>Python</li>
+                        <li>MS SQL Server, Postgres</li>
+                        <li>MongoDB, Elastic Search</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li>.NET Core, ASP.NET MVC, Web API</li>
+                        <li>ReactJs, Node.js, ExpressJS</li>
+                        <li>JavaScript (ES6), TypeScript</li>
+                        <li>HTML5, CSS3, SASS</li>
+                        <li>Entity Framework Core, Dapper</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li>AWS (EKS, S3, CloudWatch)</li>
+                        <li>Docker, Kubernetes</li>
+                        <li>CI/CD (TFS, TeamCity)</li>
+                        <li>GIT, Perforce</li>
+                        <li>SonarQube, Kibana</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-entry">
+                <h3>Master of Technology in Software Systems (Data Analytics)</h3>
+                <p>BITS Pilani (WILP), India</p>
+                <p><em>2022-2024</em></p>
+            </div>
+            <div class="education-entry">
+                <h3>Bachelor of Technology in Information Technology</h3>
+                <p>Sriram Engineering College, Chennai, India</p>
+                <p><em>2010-2014</em></p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via Email or connect on LinkedIn.</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:pksivanantham@gmail.com">pksivanantham@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sivanantham-padikkasu" target="_blank" rel="noopener noreferrer">linkedin.com/in/sivanantham-padikkasu</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="copyright-year"></span> Sivanantham Padikkasu</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+
 </body>
 </html>
