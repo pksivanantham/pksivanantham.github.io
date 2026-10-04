@@ -5,7 +5,7 @@ Personal digital garden and blog of Sivanantham Padikkasu, hosted on GitHub Page
 ## ✨ Features
 
 - **Personal Digital Garden**: Essays, musings, and stories on life and technology without corporate fluff.
-- **Kollanvayal ("Chinna Italy") Showcase**: A dedicated rich section celebrating my native village, its heritage, temples, and history.
+- **Kollanvayal Showcase**: A dedicated rich section celebrating my native village, its agricultural heritage, temples, and history.
 - **Curated Socials**: Direct links strictly to GitHub, Twitter/X, and LinkedIn.
 - **Modern Design System**: Clean editorial typography, smooth Dark/Light mode toggle with persistence, fully responsive layout.
 - **Zero-Dependency Static Performance**: Built with pure semantic HTML5, modern CSS3, and vanilla JavaScript—instant loading with near 100 Lighthouse performance.
@@ -16,7 +16,7 @@ Personal digital garden and blog of Sivanantham Padikkasu, hosted on GitHub Page
 .
 ├── index.html                   # Homepage & Digital Garden Hub
 ├── kollanvayal/
-│   └── index.html               # Dedicated Kollanvayal ("Chinna Italy") Feature Page
+│   └── index.html               # Dedicated Kollanvayal Feature Page
 ├── blog/
 │   ├── index.html               # Blog Archive
 │   └── stories-from-kollanvayal.html # Feature Essay on Kollanvayal
